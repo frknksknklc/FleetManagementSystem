@@ -11,10 +11,15 @@ public class ApplicationController {
 		return "index";
 	}
 
-	@GetMapping("/index2")
+	@GetMapping("/hr")
 	public String widget() {
-		return "index2";
+		return "/hr/index";
 	}
+	
+//	@GetMapping("/hr")
+//	public String hr() {
+//		return "/hr/index";
+//	}
 	
 
 }
